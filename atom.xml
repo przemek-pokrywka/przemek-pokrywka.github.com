@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://przemek-pokrywka.github.com/atom.xml" rel="self"/>
-  <link href="http://przemek-pokrywka.github.com/"/>
-  <updated>2013-04-07T00:29:10+02:00</updated>
-  <id>http://przemek-pokrywka.github.com/</id>
+  <title><![CDATA[Biased and fair software development]]></title>
+  <link href="http://przemek-pokrywka.github.io/atom.xml" rel="self"/>
+  <link href="http://przemek-pokrywka.github.io/"/>
+  <updated>2013-04-07T02:04:00+02:00</updated>
+  <id>http://przemek-pokrywka.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Przemysław Pokrywka]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Blogging with Octopress]]></title>
+    <link href="http://przemek-pokrywka.github.io/blog/2013/04/07/blogging-with-octopress/"/>
+    <updated>2013-04-07T01:21:00+02:00</updated>
+    <id>http://przemek-pokrywka.github.io/blog/2013/04/07/blogging-with-octopress</id>
+    <content type="html"><![CDATA[<p>After long time of hesitation and exploring the options I&#8217;ve decided to use Octopress as my new platform for blogging. I was fed up with Blogger mainly because the process of editing and configuring of layout wasn&#8217;t transparent for me. Octopress is based on a totally different concepts. Like Unix, it&#8217;s built from small independent parts, that work well with each other. Rake, Jekyll, Git are some of them. For a developer with Java background setup is pretty easy on standard Ubuntu box. I&#8217;ve encountered only one problem not mentioned in the official documentation, yet only because I haven&#8217;t followed the steps exactly. The problem was in the Ruby package. The default Ubuntu package was not enough, I needed to install the dev version (StackOverflow had the answer).
+What I like about the new environment is that all content is just plain text files, everything versioned in git. Even configuration of my blog is versioned so I can freely experiment with it and do rollbacks when I don&#8217;t like the result. I&#8217;ve chosen my personal Github pages as the deployment target. That way I&#8217;m taking one aspect of my life out of Google, on which I already depend more than I&#8217;d want to. But Octopress lets me publish to any host I prefer, so I got maximum independence on hosting.</p>
+
+<p>I&#8217;m pretty happy with that setup. Let&#8217;s see how will it work.</p>
+]]></content>
+  </entry>
   
 </feed>
