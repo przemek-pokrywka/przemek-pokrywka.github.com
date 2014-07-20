@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://przemek-pokrywka.github.io/sitemap.xml 
